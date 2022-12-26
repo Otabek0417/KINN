@@ -111,7 +111,7 @@ body {
   margin-right: 13.4rem;
 }
 .site__logo__link {
-  margin-right: 46rem;
+  margin-right: 53.2rem;
 }
 .sitenav__item:not(:last-child) {
   margin-right: 3.9rem;
@@ -466,13 +466,14 @@ body {
 }
 .sign__input {
   width: 34rem;
-  padding: 1rem;
   margin-right: 1.6rem;
   border: none;
   background-color: inherit;
   border-bottom: 0.1rem solid var(--primary-ligt-color);
+  outline: none;
 }
 .sign__btn {
+  text-transform: uppercase;
   background-color: var(--primary-ligt-color);
   color: var(--primary-light-color);
   padding: 1px 25px;
@@ -565,6 +566,12 @@ body {
 .footer__list--item {
   padding-top: 16px;
 }
+.icons__item:not(:last-child) {
+  margin-right: 1.9rem;
+}
+.icons__link:hover path {
+  fill: #cfcfc6;
+}
 .footer__link {
   font-weight: var(--main-font-weight);
   font-size: var(--footer-size);
@@ -589,6 +596,7 @@ body {
 .footer__help__item {
   padding-bottom: 16px;
 }
+
 .help__link {
   font-size: var(--footer-size);
   line-height: var(--footer-line-height);
@@ -601,24 +609,6 @@ body {
   width: 12rem;
   display: flex;
   margin-left: auto;
-}
-.icons__link {
-  margin-right: 19px;
-}
-.icons__img:hover {
-  border: solid 1px #56593d;
-  border-radius: 5px;
-  background-color: #4267b2;
-}
-.icons__imgs:hover {
-  border: solid 2px #56593d;
-  border-radius: 5px;
-  background-color: red;
-}
-.icons__images:hover {
-  border: solid 2px #56593d;
-  border-radius: 5px;
-  background-color: #1da1f2;
 }
 
 /* Bg retina */
